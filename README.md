@@ -174,72 +174,63 @@ AWS CodeDeploy -  is a service that automates software deployments to a variety 
 
 ## AWS Media Services
 
-AWS Elemental MediaConvert - is a file based video transcoding service for converting video formats for video on the main content 
-AWS MediaPackage - prepares video content for delivery over the internet it can also protect against piracy through the use of digital rights management.
-AWS Elemental MediaTailor - Inserts individually targeted advertising into video streams viewers receive streaming video with ads that are personalized for them.
-AWS Elemental MediaLive - is a broadcast grade live video processing service for creating video streams for delivery to televisions and Internet connected devices.
-Elemental MediaStore - Is a storage service in the AWS cloud that is optimized for media.
-Amazon Kinesis VideoStreams - Streams video from connected devices through to the AWS cloud for analytics machine learning and other processing applications.
+**AWS Elemental MediaConvert** - is a file based video transcoding service for converting video formats for video on the main content 
+**AWS MediaPackage** - prepares video content for delivery over the internet it can also protect against piracy through the use of digital rights management.
+**AWS Elemental MediaTailor** - Inserts individually targeted advertising into video streams viewers receive streaming video with ads that are personalized for them.
+**AWS Elemental MediaLive** - is a broadcast grade live video processing service for creating video streams for delivery to televisions and Internet connected devices.
+**Elemental MediaStore** - Is a storage service in the AWS cloud that is optimized for media.
+**Amazon Kinesis VideoStreams** - Streams video from connected devices through to the AWS cloud for analytics machine learning and other processing applications.
 
 ## AWS Mobile Services
 
-AWS Mobile Hub - Allows you to easily configure your AWS services for mobile applications in one place it generates a cloud configuration file which stores information about those configured services.
-AWS Device Farm - Is an app testing service for Android iOS and web applications it allows you to test your app against a large collection of physical devices in the AWS cloud.
-AWS AppSync - Is a graph QL back-end for mobile and web applications. 
+**AWS Mobile Hub** - Allows you to easily configure your AWS services for mobile applications in one place it generates a cloud configuration file which stores information about those configured services.
+
+**AWS Device Farm** - Is an app testing service for Android iOS and web applications it allows you to test your app against a large collection of physical devices in the AWS cloud.
+
+**AWS AppSync** - Is a graph QL back-end for mobile and web applications. 
 
 ## AWS Migration Services
 
-AWS Application Discovery Service - AWS application discovery service gathers information about an enterprise's on-premises data centers to help plan migration over to AWS data that is collected is retained in an encrypted format in an AWS application discovery service data store.
-AWS Database Migration Service - Orchestrates the migration of databases over to the AWS cloud you can also migrate databases with one database engine type to another totally different database engine type.
-AWS Server Migration Service - Can automate the migration of thousands of on-premise workloads over to the AWS cloud this reduces costs and minimizes our downtime for migrations
-AWS snowball - is a portable petabyte scale data storage device that can be used to migrate data from on-premises environments over to the AWS cloud you can download your data to the snowball device and then send it to AWS who will then upload that to a storage service for you.
+**AWS Application Discovery Service** - AWS application discovery service gathers information about an enterprise's on-premises data centers to help plan migration over to AWS data that is collected is retained in an encrypted format in an AWS application discovery service data store.
+
+**AWS Database Migration Service** - Orchestrates the migration of databases over to the AWS cloud you can also migrate databases with one database engine type to another totally different database engine type.
+
+**AWS Server Migration Service** - Can automate the migration of thousands of on-premise workloads over to the AWS cloud this reduces costs and minimizes our downtime for migrations.
+
+**AWS snowball** - is a portable petabyte scale data storage device that can be used to migrate data from on-premises environments over to the AWS cloud you can download your data to the snowball device and then send it to AWS who will then upload that to a storage service for you.
 
 ## AWS Business Productivity & App Streaming
 
-Amazon WorkDocs - is a secure fully managed file collaboration and management service in the AWS cloud the web client allows you to view and provide feedback for over 35 different file types including Microsoft Office file types and PDF. 
-Amazon WorkMail - is a secure managed business email and calendar service. 
-Amazon Chime - is an online meeting service in the AWS cloud it is great for businesses for online meetings video conferencing calls chat and to share content both inside and outside of your organization.
-Amazon WorkSpaces - is a fully managed secure desktop as a service it can easily provision streaming cloud-based Microsoft Windows desktops.
- Amazon AppStream 2.0 - is a fully managed secure application streaming service that allows you to stream desktop applications from AWS to an html5 compatible web browser, this is great for users who want access to their applications from anywhere.
-AWS IOT - is a managed cloud platform that lets embedded devices such as microcontrollers and Raspberry Pi, to securely interact with cloud applications and other devices.
-Amazon FreeRTOS - is an operating system for microcontrollers such as the microchip pic32 that allows small low-cost low-power devices to connect to AWS Internet of Things
-AWS Greengrass -  is a software that lets you run local AWS lambda functions and messaging data caching sync and machine learning applications on AWS IOT connected devices. AWS Greengrass extends AWS services to devices so they can act locally on the data they generate while still using cloud-based AWS IOT capabilities.
+**Amazon WorkDocs** - is a secure fully managed file collaboration and management service in the AWS cloud the web client allows you to view and provide feedback for over 35 different file types including Microsoft Office file types and PDF. 
+
+**Amazon WorkMail** - is a secure managed business email and calendar service. 
+
+**Amazon Chime** - is an online meeting service in the AWS cloud it is great for businesses for online meetings video conferencing calls chat and to share content both inside and outside of your organization.
+
+**Amazon WorkSpaces** - is a fully managed secure desktop as a service it can easily provision streaming cloud-based Microsoft Windows desktops.
+
+**Amazon AppStream 2.0** - is a fully managed secure application streaming service that allows you to stream desktop applications from AWS to an html5 compatible web browser, this is great for users who want access to their applications from anywhere.
+ 
+**AWS IOT** - is a managed cloud platform that lets embedded devices such as microcontrollers and Raspberry Pi, to securely interact with cloud applications and other devices.
+
+**Amazon FreeRTOS** - is an operating system for microcontrollers such as the microchip pic32 that allows small low-cost low-power devices to connect to AWS Internet of Things.
+
+**AWS Greengrass** -  is a software that lets you run local AWS lambda functions and messaging data caching sync and machine learning applications on AWS IOT connected devices. AWS Greengrass extends AWS services to devices so they can act locally on the data they generate while still using cloud-based AWS IOT capabilities.
 
 ## AWS Game Development
 
-Amazon Gamelift - allows you to deploy scale and manage your dedicated game servers in the AWS cloud. 
-Amazon Lumberyard - it's a game development environment and cross-platform triple-a game engine on the AWS cloud. 
+**Amazon Gamelift** - allows you to deploy scale and manage your dedicated game servers in the AWS cloud. 
+**Amazon Lumberyard** - it's a game development environment and cross-platform triple-a game engine on the AWS cloud. 
 
 ## AWS Elastic Beanstalk
 
-Elastic Beanstalk it's been around for quite some time. It was first launched in 2011 it allows you to quickly deploy and manage applications on environments and those environments are launched for you without you having to worry about how it all works, it'll automatically handle capacity provisioning, it'll launch a load balancer for you if you need that, it'll Auto scale for you and it can also implement health monitoring so that if one of these instances that are launched becomes unhealthy it can replace those automatically for you. If you need to change your code after you have deployed it it's quite easy to upload new versions of that code and that can be done through the console or the command-line interface and also complete environments can also be redeployed if need be. Your application that you're deploying could be a Docker container it could be raw code it could be nodejs, java, .net. PHP, Ruby, Python, or GO you just supply your code and Elastic Beanstalk
+Elastic Beanstalk it's been around for quite some time. It was first launched in 2011 it allows you to quickly deploy and manage applications on environments and those
+environments are launched for you without you having to worry about how it all works, it'll automatically handle capacity provisioning, it'll launch a load balancer for you if
+you need that, it'll Auto scale for you and it can also implement health monitoring so that if one of these instances that are launched becomes unhealthy it can replace those
+automatically for you. If you need to change your code after you have deployed it it's quite easy to upload new versions of that code and that can be done through the console or
+the command-line interface and also complete environments can also be redeployed if need be. Your application that you're deploying could be a Docker container it could be raw
+code it could be nodejs, java, .net. PHP, Ruby, Python, or GO you just supply your code and Elastic Beanstalk
 
 ![imagem](https://github.com/CodigoTodos/AWSNotes/assets/71842002/dbbf4b7b-383d-4bcb-803d-f2ed4f34bb53)
 
 ![imagem](https://github.com/CodigoTodos/AWSNotes/assets/71842002/797986e0-c72a-477a-bc7c-5fa8696e37b3)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

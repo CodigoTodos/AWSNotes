@@ -52,6 +52,45 @@ Based in this free udemy Course: https://www.udemy.com/course/amazon-web-service
 
 ## Networking & Content Delivery
 
+**CloudFront** - Amazon CloudFront is a global content delivery network or CDN for short that securely delivers your frequently requested content to over 100 edge locations across the globe and by doing this it achieves low latency and high transfer speeds for your end-users it also provides protection against DDoS attacks.
+
+**Virtual Private Cloud (VPC)** - Amazon virtual private cloud or VPC for short lets you provision a logically isolated section of the AWS cloud and you can launch AWS resources in that virtual network that you yourself define and this is your own personal private space within the AWS cloud and no one can enter it unless you allow them to enter it.
+
+**Direct Connect** - AWS Direct Connect is a high speed dedicated network connection to AWS enterprise's can use it to establish a private connection to the AWS cloud in situations where a standard internet connection won't be adequate AWS.
+
+**Elastic Load Balancing (ELB)**  - Elastic load balancing or ELB for short or automatically distributes incoming traffic for your application across multiple ec2 instances and also in multiple availability zones so if one availability zone goes down the traffic will still go to the other availability zone and your application will continue to deliver responses to requests it also allows you to achieve high availability and fault tolerance by distributing traffic evenly amongst those instances and it can also bypass unhealthy instances.
+
+**Route 53** - Amazon route 53 is a highly available and scalable domain name system or DNS for short and it can handle direct traffic for your domain name and direct that traffic to your back-end web serve.
+
+**API Gateway** - Amazon API gateway is a fully managed service that makes it easy for developers to create and deploy secure application programming interfaces or api's at any scale it handles all of the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls it's a service service and as such you don't need to worry about the underlying infrastructure AWS looks after everything for you. 
+
+![imagem](https://github.com/CodigoTodos/AWSNotes/assets/71842002/09919f9b-1075-4b0c-a337-54b5874e50da)
+
+![imagem](https://github.com/CodigoTodos/AWSNotes/assets/71842002/d5b35bed-90a3-4e10-9690-9a2225149644)
+
+![imagem](https://github.com/CodigoTodos/AWSNotes/assets/71842002/fd46539f-d1cf-4174-88dd-b9c6dca39186)
+
+## AWS Management Tools
+
+**Cloud Formation** - CloudFormation allows you to use a text file to define your infrastructure and, to use his text file to deploy resources on the AWS cloud. This allows for the defining of your infrastructure as code and you can manage your infrastructure with the same version control tools that you use to manage your code.
+
+**AWS Service Catalog** - Service Catalog allows enterprises to catalogue resources that can be deployed on the AWS cloud. This allows an enterprise to achieve common governance and compliance for its IT resources by clearly defining what is allowed to be deployed on the AWS cloud.
+
+**AWS CloudWatch** - AWS CloudWatch is a monitoring service for AWS cloud resources and applications that are deployed on the AWS cloud. It can be used for triggering scaling operations or it can also be used for providing insight into your deployed resources. 
+
+**AWS Systems Manager** - AWS Systems Manager provides a unified user interface that allows you to view operational data from multiple AWS services and to automate tasks across your AWS resources. That helps to shorten the time to detect and resolve operational problems.
+
+**CloudTrail** - AWS CloudTrail monitors and logs AWS account activity including actions taken through the AWS management console, the AWS software development kits, the command-line tools and other AWS services. So this greatly simplifies security analysis of the activity of users of your account.
+
+**AWS Config** - AWS Config enables you to assess, audit and evaluate the configurations of your AWS resources. This simplifies compliance auditing, security analysis, change management and control and also, operational troubleshooting.
+
+**AWS Opsworks** - AWS Opsworks provides managed instances of Chef and Puppet. Chef and Puppet can be used to configure and automate the deployment of AWS resources.
+
+**AWS trusted advisor** - AWS trusted advisor is an online expert system that can analyze your AWS account and the resources inside it and then advise you on how to achieve high security and best performance from those resources.
+
+
+
+
 
 
 
